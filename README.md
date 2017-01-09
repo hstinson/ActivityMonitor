@@ -2,6 +2,7 @@
 Activity monitor developed for Windows 10 IoT Core running on a Raspberry Pi 2 or 3. Detects motion using passive infrared sensor and blinks Phillips Hue lights when motion is detected.
 
 Blog Post: http://hunter-dev.com/activity-monitor-using-raspberry-pi-with-windows-10-iot-core/
+
 YouTube Video: https://www.youtube.com/watch?v=Qh0cJH1ecH8
 
 # Getting Started
