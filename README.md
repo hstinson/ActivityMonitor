@@ -1,20 +1,11 @@
-#Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction 
+Activity monitor developed for Windows 10 IoT Core running on a Raspberry Pi 2 or 3. Detects motion using passive infrared sensor and blinks Phillips Hue lights when motion is detected.
 
-#Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Blog Post: http://hunter-dev.com/activity-monitor-using-raspberry-pi-with-windows-10-iot-core/
+YouTube Video: https://www.youtube.com/watch?v=Qh0cJH1ecH8
 
-#Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-#Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Getting Started
+1.	Follow steps at https://developer.microsoft.com/en-us/windows/iot/GetStarted to setup your Raspberry Pi with IoT Core. Wire up the motion sensor to GPIO pin 26 on the Pi.
+2.	Register your Hue App by following the steps at https://www.developers.meethue.com/documentation/getting-started. 
+3.  Pass your Hue app key into the HueLightsNotification constructor.
+4.  Build and deploy app onto Raspberry Pi. Enjoy!
